@@ -2,10 +2,12 @@
 .idea/
 *.iml
 .vscode/
+
+# OS
 .DS_Store
 
 # Secrets
 .env
 
-# Docker
-.docker/
+# Docker volumes
+pgdata/
